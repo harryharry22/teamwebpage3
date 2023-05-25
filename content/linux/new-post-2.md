@@ -1,6 +1,7 @@
 ---
 title: "Post2"
 date: 2023-05-22
+draft: false
 menu:
   main:
     parent: "menu.linux" 
