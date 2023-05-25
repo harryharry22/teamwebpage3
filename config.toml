@@ -23,42 +23,40 @@ pluralizelisttitles = false
 
 
 # Main menu
+
+
+# Main menu
+
 [[menu.main]]
     name       = "Home"
     identifier = "menu.home"
     url        = "/"
     weight     = 1
 
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
+    name       = "Linux"
+    identifier = "menu.linux"
+    url        = "/linux/"
     weight     = 2
-    parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
+    name       = "CONTAINER"
+    identifier = "menu.CONTAINER"
+    url        = "/CONTAINER/"
     weight     = 3
-    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
+    [[menu.main]]
+    name       = "GIT"
+    identifier = "menu.git"
+    url        = "/git/"
     weight     = 4
-    parent     = "menu.home"
 
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
+    [[menu.main]]
+    name       = "WEB"
+    identifier = "menu.web"
+    url        = "/web/"
     weight     = 5
-    parent     = "menu.home"
-
 
 # Top bar social links menu
 
